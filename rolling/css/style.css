@@ -481,7 +481,6 @@ body.loaded #preloader{
 }
 
 
-
 /* About Me */
 
 .about-section {
@@ -673,56 +672,6 @@ ul.portfolio li.active {
 
 
 
-/* Statistics */
-
-.statistics-section {
-	position: relative;
-    background: url(../images/bg/statistics.jpg);
-    background-size: cover;
-    z-index: 1;
-}
-
-.statistics {
-  margin: 25px 0;
-  overflow: hidden;
-  color: #ffffff;
-}
-
-.statistics.block .statistics-icon,
-.statistics.block .statistics-content {
-  width: auto;
-  float: none;
-  text-align: center;
-}
-
-.statistics-icon {
-  width: 30%;
-  text-align: center;
-  margin-right: 5%;
-  float: left;
-  font-size: 50px;
-}
-
-.statistics-content {
-  float: left;
-  width: 65%;
-  text-align: left;
-}
-
-.statistics-content > h5 {
-  font-size: 34px;
-  margin-top: 0;
-}
-
-.statistics-content > span {
-  display: block;
-  font-weight: 500;
-  font-size: 12px;
-  letter-spacing: 1px;
-}
-
-
-
 /* Services */
 
 .services-section {
@@ -770,7 +719,7 @@ ul.portfolio li.active {
 
 
 
-/* Contact Us */
+/* Contact */
 
 .contact-us {
 	background-color: #f9f9f9;
