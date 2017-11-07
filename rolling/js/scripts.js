@@ -128,14 +128,10 @@
         });
 
         
-		
-		
         /* Portfolio Filtering */
 
         $('.portfolio-inner').mixItUp();
 
-
-       
         /* Magnific Popup */
 
         $('.portfolio-popup').magnificPopup({
@@ -165,29 +161,10 @@
 		  
           });
 
-       
-	   
 		 
         /* Testimonial Carousel/Slider */
 
-        $(".testimonial-carousel-list").owlCarousel({
-            items: 1,
-            autoPlay: true,
-            stopOnHover: false,
-            navigation: true,
-            navigationText: ["<i class='fa fa-long-arrow-left fa-2x owl-navi'></i>", "<i class='fa fa-long-arrow-right fa-2x owl-navi'></i>"],
-            itemsDesktop: [1199, 1],
-            itemsDesktopSmall: [980, 1],
-            itemsTablet: [768, 1],
-            itemsTabletSmall: false,
-            itemsMobile: [479, 1],
-            autoHeight: true,
-            pagination: false,
-            transitionStyle : "backSlide"
-        });
-		
-		
-		
+      
 		
         /* Statistics Counter */
 		
@@ -203,22 +180,10 @@
            })
            });
 		   
-		  
          
          /* Google Map */
 		 
-         $('#my-address').gMap({
-            zoom: 5,
-            scrollwheel: true,
-            maptype: 'ROADMAP',
-            markers:[
-            {
-            address: "New York",  /* You can change your address from here */
-            html: "<b>Address</b>: <br> Area-2, Rose Area, New York, U.S.A.",   /* You can change display address text from here */
-            popup: true
-            }
-            ]
-            });
+        
               
 		   
             });
