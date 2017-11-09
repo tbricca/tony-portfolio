@@ -489,13 +489,12 @@ body.loaded #preloader{
 
 .about-section img {
     /* position: absolute;  */
-    background: url(../images/bg/me.jpg);
-    width: 75%;
+    width: 50%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
+    padding-top: 60px;
     border-image-repeat: no;
 
     
@@ -567,7 +566,9 @@ ul.portfolio li.active {
 }
 
 .portfolio .item img {
-    width: 100%;
+    width: 80%;
+    object-fit: fill;
+    height: 200px;
 }
 
 .item {
@@ -671,6 +672,7 @@ ul.portfolio li.active {
 }
 
 .contact-us-detail {
+
 }
 
 .contact-us-detail i {
@@ -683,6 +685,8 @@ ul.portfolio li.active {
     width: 88px;
     height: 88px;
     line-height: 88px;
+    display: block;
+    margin: auto;
 }
 
 .contact-us-detail:hover i {
@@ -885,6 +889,7 @@ ul.portfolio li.active {
 @media only screen and (max-width: 991px) {
     .about-section img {
         position: inherit;
+        
      }
 	 
      .call-to-action h2 {
