@@ -356,9 +356,15 @@ body.loaded #preloader{
     vertical-align: middle;
 }
 
+/* /// HERO HEADER */
+
 .header-text {
     font-family: 'Poppins', sans-serif;
     color: white;
+}
+
+.header-text h1 {
+    font-size: 350%
 }
 
 .home-section-background h2 {
