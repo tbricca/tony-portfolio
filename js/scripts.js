@@ -110,9 +110,9 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["Web Developer"],   
+            strings: ["Web Developer & Designer"],   
 	                                                                                            
-            typeSpeed: 50
+            typeSpeed: 40
           });
          });
         

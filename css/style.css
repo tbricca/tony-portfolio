@@ -361,10 +361,12 @@ body.loaded #preloader{
 .header-text {
     font-family: 'Poppins', sans-serif;
     color: white;
+    padding-bottom: 150px;
 }
 
 .header-text h1 {
-    font-size: 350%
+    font-size: 450%;
+    letter-spacing: 5px;
 }
 
 .home-section-background h2 {
@@ -378,8 +380,8 @@ body.loaded #preloader{
     color: #f8f8f8;
     letter-spacing: 4px;
     font-size: 15px;
-	margin-top: 40px;
-	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 .typed-cursor{
@@ -387,6 +389,7 @@ body.loaded #preloader{
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
+    
 }
 
 @keyframes blink{
