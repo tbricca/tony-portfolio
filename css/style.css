@@ -362,6 +362,7 @@ body.loaded #preloader{
     font-family: 'Poppins', sans-serif;
     color: white;
     padding-bottom: 150px;
+    margin-top: 100px;
 }
 
 .header-text h1 {
@@ -391,7 +392,9 @@ body.loaded #preloader{
     animation: blink 0.7s infinite;
     
 }
-
+.portfolio-button {
+    margin-top: 40px;
+}
 .landing-action {
     padding-top: 10%;
 }
@@ -502,7 +505,7 @@ body.loaded #preloader{
 }
 
 
-/* About Me */
+/* ---------ABOUT ME SECTION------- */
 
 .about-section {
 	overflow: hidden;
