@@ -403,7 +403,7 @@ body.loaded #preloader{
     padding-top: 20px;
 }
 
-.github-button {
+.github-button:first-child {
     font-size: 400%;
     color: white;
 }
